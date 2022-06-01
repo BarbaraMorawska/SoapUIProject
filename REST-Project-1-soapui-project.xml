@@ -1161,7 +1161,7 @@ testStepName = messageExchange.modelItem.testStep.name
 //to get the Test Step Name
 log.info testStepName
 xmlHold = messageExchange.responseContentAsXml.toString()
-//to store the response as Xml string</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="countryName" value="taiwan" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>countryName</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:afterLoadScript>
+//to store the response as Xml string</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="countryName" value="taiwan" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>countryName</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="83fcf33c-ae46-4d93-99bd-88a30322440c"><con:settings/><con:config><script/></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:afterLoadScript>
 def su = new File("C:/Users/Basia i Karol/OneDrive/Pulpit/SOAP UI/setup.txt").text
 def td = new File("C:/Users/Basia i Karol/OneDrive/Pulpit/SOAP UI/teardown.txt").text
 project.getTestSuiteList().each { testSuite ->
